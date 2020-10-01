@@ -1,4 +1,4 @@
-# Intervention Validation
+# #Intervention Validation
 
 Intervention Validation is an extension library for Laravel's own validation system. The package adds rules to validate data like IBAN, BIC, ISBN, creditcard numbers and more.
 
@@ -99,7 +99,7 @@ $validator = Validator::make($request->all(), [
 ]);
 ```
 
-### Changing the error messages:
+## changing the error messages:
 
 Add the corresponding key to `/resources/lang/<language>/validation.php` like this:
 
